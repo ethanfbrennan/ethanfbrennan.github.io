@@ -1,19 +1,19 @@
 html, body {
   height: 100%;
-  margin: 0px;
-  padding: 0px;
 body {
   display: flex;
   flex-flow: column nowrap;
   color: black;
   background-color: white;
 }
-div.header {
+#header {
   flex-shrink: 0;
+  background-color: green;
 }
-div.content {
+#content {
   flex: 1 0 auto;
 }
-div.footer {
+#footer {
   flex-shrink: 0;
+  background-color: green;
 }
